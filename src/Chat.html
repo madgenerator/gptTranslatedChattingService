@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+  <div id="titleContainer">
+    WELCOME TO SECRET CHATTING APP
+  
+    <select id="languageSelect">
+      <option value="English">English</option>
+      <option value="Korean">Korean</option>
+      <option value="Japanese">Japanese</option>
+      <option value="Mandarin">Mandarin</option>
+      <option value="Indonesian">Indonesian</option>
+      <option value="Hebrew">Hebrew</option>
+    </select>
+  </div>
+  
+  <div id="messageContainer">
+    
+  </div>
+
+  <div id="inputContainer">
+    <input type="text" id="userID">
+    <input type="text" id="userMessage">
+    <button id="sendButton" onClick="sendMessage()"> send </button>
+  </div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/socket.io-client/dist/socket.io.js"></script>
+  <script src="Chat.js"></script>
+</body>
+</html>
+
+
+

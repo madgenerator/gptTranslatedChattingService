@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+#userID {
+    width: 20%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #5b2525;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#enterButton {
+    width: 20%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#IDText{
+  padding:10px;
+  font-family:sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#profileNum{
+  width: 20%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #5b2525;
+  border-radius: 5px;
+  box-sizing: border-box;
+}

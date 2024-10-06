@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#titleContainer {
+    background-color: lightblue; /* Title Container의 배경색 */
+    flex: 0.5; /* 전체 높이의 10% */
+    padding: 10px;
+    box-sizing: border-box;
+    
+    display: flex;
+    justify-content: center; /* 텍스트를 수평으로 가운데 정렬 */
+    align-items: center; /* 텍스트를 수직으로 가운데 정렬 */
+    font-size: 25px; /* 폰트 크기 */
+    font-weight: bold; /* 폰트 굵기 */
+    color: #333; /* 폰트 색상 */
+}
+
+#messageContainer {
+    background-color: lightgreen; /* Message Container의 배경색 */
+    flex: 8.5; /* 전체 높이의 80% */
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: auto; /* show scroll bar if need */
+}
+
+#inputContainer {
+    background-color: yellow;
+    width: 100%;
+    flex: 1; /* 전체 높이의 10% */
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+#userID {
+    width: 20%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#languageSelect {
+    width: 15%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    margin-left:20px;
+}
+
+#userMessage {
+    width: 60%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#sendButton {
+    width: 20%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform:uppercase;
+}
